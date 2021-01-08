@@ -9,13 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Goal Tracker")
-                .padding()
-                .font(.title)
-                .foregroundColor(.blue)
-            Text("Let's Start Tracking")
-        }
+        GoalListView()
     }
 }
 
